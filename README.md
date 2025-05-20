@@ -11,3 +11,16 @@ Evaluación: para cada vector, se entrena un k-NN y se mide la precisión; el fi
 Gravitación: agentes con mejor fitness tienen “mayor masa” y atraen a otros, modelando fuerzas gravitacionales en el espacio de soluciones.
 
 Actualización: posiciones y velocidades se actualizan con ruido y función sigmoide para mantener valores binarios
+
+Salida
+
+Conjunto óptimo de características (best_subset)
+
+Precisión alcanzada (best_acc)
+
+Gráficos de evolución de fitness, número de características y heatmap de uso.
+
+Animación GIF que muestra la migración de agentes (en 2D tras PCA).
+
+Problema que resuelve
+Selección de características en aprendizaje de máquinas, reduciendo dimensiones y mejorando generalización y eficiencia computacional sin sacrificar precisión
